@@ -1,0 +1,116 @@
+body {
+    padding-top: 50px;
+    /* margin-bottom: 150px; */
+    /* background-color: grey; */
+    background-image: linear-gradient(326deg, white 0%, #34495e 74%);
+    /* background-image: linear-gradient(326deg, white 0%, #34495e 74%); */
+    height: 100vh;
+    overflow: hidden;
+}
+
+#square{
+    position: relative;
+    width: 800px;
+    height: 480px;
+    /* border: 1px solid red; */
+    display: block;
+    margin: auto;
+    margin-top: 3%;
+    background: #f3f6f8;
+    z-index: 3;
+}
+
+#leftSquare{
+    width: 35%;
+    /* border: 1px solid green; */
+    margin: auto;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    border-radius: 0%;
+    z-index: 1;
+    background: #00bcd4;
+}
+
+#rightSquare{
+    /* border: 1px solid yellow; */
+    width: 65%;
+    display: block;
+    margin: auto;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    background: url('../img/ui.jpg');
+    background-size: cover;
+    border-radius: 0%;
+    z-index: 1;
+
+}
+
+#container {
+    margin-top: 10%;
+}
+.cta-title{
+    color: #fff;
+    font-family: 'PT-Sans', sans-serif;
+    font-size: 2em;
+    font-weight: 400;
+    text-align: center;
+    text-transform: capitalize;
+    z-index: 3;
+}
+
+.button {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    z-index: 3;
+    background: #00bcd4;
+    border: 2px solid #fff;
+    cursor: pointer;
+    padding: 14px 25px;
+}
+
+.button:focus{
+    border: 2px solid #fff;
+}
+
+
+#twitter {
+    padding-left: 10px;
+}
+
+form {
+    padding: 20px 0;
+    position: relative;
+}
+
+.option {
+    appearance: none;
+    outline: 0;
+    border: 1px solid rgba(255, 255, 255, .8);
+    background-color: rgba(255, 255, 255, .8);
+    width: 75%;
+    margin: auto;
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    padding: 10px 15px;
+    text-align: left;
+    font-size: 18px;
+    color: #333;
+    transition-duration: .25s;
+    font-weight: 300;
+}
+
+.option:hover {
+    background-color: rgba(255, 255, 255, .4);
+}
+
+.option:focus {
+    background-color: #fff;
+    width: 90%;
+    color: #cd98e3;
+}
